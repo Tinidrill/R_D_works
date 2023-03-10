@@ -1,4 +1,4 @@
-i="I love Python! "
+i = "I love Python! "
 print(i*42)
 
 #count months into years
