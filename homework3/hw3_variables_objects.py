@@ -1,5 +1,5 @@
 i = "I love Python! "
-print(i*42)
+print(i * 42)
 
 #count months into years
 age_in_month = int(input("Enter your age in months: "))
