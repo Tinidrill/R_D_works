@@ -1,6 +1,6 @@
 # customer exceptions - age check
 while True:
-    class age_check(Exception):
+    class AgeCheck(Exception):
         pass
     try:
         min_age = 18
