@@ -15,7 +15,7 @@ def my_decorator(func):
             print()
     return wrapper
 
-@my_decorator
+@my_decorator(times=2)
 def main_function(times):
     print("This is main function. It does nothing now. It should be decorated.")
 
