@@ -32,10 +32,11 @@
 
 -- TASK 4.3 - I don't know how to sort out one author only
 
--- SELECT COUNT(purchase.book_id) AS purchase_number, books.author
--- FROM books
--- LEFT JOIN purchase ON purchase.book_id = books.id
--- GROUP BY books.author
+SELECT
+    COUNT(p.id) AS amount
+FROM purchases p
+JOIN books b ON b.id = p.book_id
+WHERE b.author = 'Rowling';
 
 -- TASK 4.4
 
