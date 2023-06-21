@@ -1,0 +1,72 @@
+body {
+    padding: 20px;
+    font-size: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+}
+
+p:hover {
+    color: black;
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+p1 {
+    color: black;
+    font-weight: bold;
+}
+img {
+    width: 1000px;
+    height: auto;
+}
+
+.small-img {
+    width: 300px;
+    height: auto;
+}
+
+#smallImg {
+    width: 300px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.blue-1 {
+    color: blue;
+}
+
+.my-table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+th {
+    border: 2px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.id-cell {
+    font-style: italic;
+}
